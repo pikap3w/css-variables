@@ -1,0 +1,57 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1 {
+  text-align: center;
+  font-size: 2.25em;
+}
+
+#navbar {
+  padding: 1.25rem 0;
+  font-size: 1.5rem;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 12.5rem 12.5rem;
+  grid-auto-rows: 8.75rem;
+  grid-gap: 1.25rem;
+  justify-content: center;
+}
+
+#navbar > ul {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0 auto;
+  padding: 0;
+  list-style-type: none;
+}
+
+p {
+  text-align: center;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+footer > p {
+  font-size: 0.75em;
+}
+
+button {
+  margin: 0 auto;
+  display: block;
+  padding: 0.25rem 0.5rem;
+  border: none;
+  font-size: 0.875em;
+}

@@ -1,0 +1,20 @@
+CSS Variables
+
+Advantages over LESS & SASS
+
+1. No transpiling (native to the browser)
+2. Have access to the DOM:
+    - local scopes
+        - can create variables that only work in certain section of app
+    - change with javascript
+        - ex. if you want users to be able to change font size
+    - ideal for responsiveness
+        - ex. can change variables with media queries
+3. Perfect for themes
+    - in particular, component specific themes for items you want to change a little bit
+        - ex. a product after it is added to a shopping cart
+        - ex. an article you want to feature
+
+note about font size & em:
+    - 16px browser default
+    - em is a % applied to font size inherited from ancestor
